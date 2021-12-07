@@ -1,0 +1,284 @@
+body {
+  background-image: url("https://thumbs.gfycat.com/BoilingFrankIbizanhound-size_restricted.gif");
+  margin: 0;
+}
+
+* {
+  cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+}
+
+.left {
+  border: 5px solid white;
+  background-color: #CCFFFF;
+  flex: 1;
+  padding: 15px;
+}
+
+.center {
+  background-color: #CCFFCC;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.col {
+  margin: 0;
+}
+
+.top {
+  border: 5px solid white;
+  background-color: #CCFF99;
+  flex: 1;
+}
+
+.middle {
+  border: 5px solid white;
+  background-color: #FFFFCC;
+  flex: 2;
+}
+
+.bottom {
+  border: 5px solid white;
+  background-color: #CCCCFF;
+  flex: 1;
+}
+
+.right {
+  border: 5px solid white;
+  display: flex;
+  background-color: #FFCCFF;
+  flex-flow: column;
+  flex: 1;
+}
+
+.pikachu_evol {
+  content: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png");
+  width: 275px;
+  height: 275px;
+}
+
+.jigglypuff_evol {
+  content: url("https://cdn2.bulbagarden.net/upload/thumb/9/92/040Wigglytuff.png/250px-040Wigglytuff.png");
+  width: 250px;
+  height: 250px;
+}
+
+.bulbasaur_evol {
+  content: url("https://cdn2.bulbagarden.net/upload/thumb/7/73/002Ivysaur.png/250px-002Ivysaur.png");
+  width: 200px;
+  height: 200px;
+}
+
+.squirtle_evol {
+  content: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png");
+  width: 250px;
+  height: 250px;
+}
+
+.charmander_evol {
+  content: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png");
+  width: 250px;
+  height: 250px;
+}
+
+.star_evol {
+  content: url("https://cdn2.bulbagarden.net/upload/c/cd/121Starmie.png");
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 1250px) {
+  * {
+    cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important;
+  }
+
+  .pikachu_evol {
+    content: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png");
+    width: 275px;
+    height: 275px;
+  }
+
+  .jigglypuff_evol {
+    content: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png");
+    width: 250px;
+    height: 250px;
+  }
+
+  .bulbasaur_evol {
+    content: url("https://static.wikia.nocookie.net/ultimate-pokemon-fanon/images/e/ea/001Bulbasaur_AG_anime.png/revision/latest/scale-to-width-down/250?cb=20160513022152");
+    width: 200px;
+    height: 200px;
+  }
+
+  .squirtle_evol {
+    content: url("https://static.pokemonpets.com/images/monsters-images-800-800/7-Squirtle.webp");
+    width: 250px;
+    height: 250px;
+  }
+
+  .charmander_evol {
+    content: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png");
+    width: 250px;
+    height: 250px;
+  }
+
+  .star_evol {
+    content: url("https://cdn2.bulbagarden.net/upload/4/4f/120Staryu.png");
+    width: 250px;
+    height: 250px;
+  }
+  @keyframes rainbow {
+    0% {
+      border-color: red
+    }
+
+    10% {
+      border-color: orange
+    }
+
+    20% {
+      border-color: yellow
+    }
+
+    30% {
+      border-color: green
+    }
+
+    40% {
+      border-color: blue
+    }
+
+    50% {
+      border-color: violet
+    }
+
+    30% {
+      border-color: blue
+    }
+
+    70% {
+      border-color: green
+    }
+
+    80% {
+      border-color: yellow
+    }
+
+    90% {
+      border-color: orange
+    }
+
+    100% {
+      border-color: red
+    }
+  }
+
+  body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cad4b52e-f6b1-432f-9035-a5f4853bcf15/d79aauf-6f33c5ca-3e5d-4c7e-ae22-316ec20d7131.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NhZDRiNTJlLWY2YjEtNDMyZi05MDM1LWE1ZjQ4NTNiY2YxNVwvZDc5YWF1Zi02ZjMzYzVjYS0zZTVkLTRjN2UtYWUyMi0zMTZlYzIwZDcxMzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.G86ooXOVfDGKgTHYW6J3kM1tS30JDEdkKEspruoI6WE");
+    margin: 0;
+  }
+
+  .container 2 {
+    background-image: radial-gradient(circle, #6bebff, #4173b0);
+    overflow: hidden;
+    display: flex;
+    flex-flow: row;
+    height: 50vh;
+  }
+
+  .left 2 {
+    border: 5px solid white;
+    background-color: #CCFFFF;
+    flex: 1;
+    padding: 15px;
+  }
+
+  .center {
+    background-color: #CCFFCC;
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+  }
+
+  .col {
+    margin: 0;
+  }
+
+  .top {
+    border: 5px solid white;
+    background-color: #CCFF99;
+    flex: 1;
+  }
+
+  .middle {
+    border: 5px solid white;
+    background-color: #FFFFCC;
+    flex: 2;
+  }
+
+  .bottom {
+    border: 5px solid white;
+    background-color: #CCCCFF;
+    flex: 1;
+  }
+
+  .right {
+    border: 5px solid white;
+    display: flex;
+    background-color: #FFCCFF;
+    flex-flow: column;
+    flex: 1;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    border-color: red
+  }
+
+  10% {
+    border-color: orange
+  }
+
+  20% {
+    border-color: yellow
+  }
+
+  30% {
+    border-color: green
+  }
+
+  40% {
+    border-color: blue
+  }
+
+  50% {
+    border-color: violet
+  }
+
+  30% {
+    border-color: blue
+  }
+
+  70% {
+    border-color: green
+  }
+
+  80% {
+    border-color: yellow
+  }
+
+  90% {
+    border-color: orange
+  }
+
+  100% {
+    border-color: red
+  }
+}

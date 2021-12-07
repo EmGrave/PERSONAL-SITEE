@@ -1,0 +1,122 @@
+body {
+  background-color: #000066;
+}
+
+h1 {
+  text-shadow: 3px 3px #626E13;
+  text-align: center;
+  font-family: '"Lucida Console"', monotype;
+  font-size: 3rem;
+  color: #D3FF00;
+}
+
+div {
+  box-sizing: border-box;
+  padding: .5rem;
+  margin: 2px;
+  font-family: 'Product Sans', monotype;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 0px solid;
+}
+
+span {
+  display: inline-block;
+  padding: .1rem;
+  font-size: 5.7rem;
+  -webkit-text-stroke: 5px #4F5A05;
+  font-family: 'Product Sans', monotype;
+  color: #F5FFAD;
+}
+
+.container {
+  position: relative;
+  height: 500px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-color: #29FC79;
+  color: #29FC79;
+}
+
+.relative1 {
+  position: relative;
+  top: 320px;
+  left: 150px;
+  height: 300px;
+  font-size: 1.2rem;
+  border-color: #DFFF00;
+  max-width: 50%;
+  color: #DFFF00;
+  border-radius: 0px;
+  background-image: transparent;
+}
+.relative2 {
+  position: relative;
+  top: 75px;
+  left: 100px;
+  height: 300px;
+  font-size: 1.2rem;
+  border-color: #DFFF00;
+  max-width: 50%;
+  color: #DFFF00;
+  border-radius: 0px;
+  background-image: transparent;
+}
+.relative3 {
+  position: relative;
+  top: 280px;
+  left: 60px;
+  height: 300px;
+  font-size: 1.2rem;
+  border-color: #DFFF00;
+  max-width: 50%;
+  color: #DFFF00;
+  border-radius: 0px;
+  background-image: transparent;
+}
+.relative4 {
+  position: relative;
+  top: 200px;
+  left: 150px;
+  height: 300px;
+  font-size: 1.2rem;
+  border-color: #DFFF00;
+  max-width: 50%;
+  color: #DFFF00;
+  border-radius: 0px;
+  background-image: transparent;
+}
+
+p {
+  font-size: 50px;
+  font-family: 'Product Sans', monospace;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: pink; }
+  50% { color: blue; }
+  100% { color: pink; }
+}
+
+#cf {
+  position: relative;
+  height: 281px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+#cf img {
+  position: absolute;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity: 0;
+}

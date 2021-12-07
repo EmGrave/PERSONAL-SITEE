@@ -1,0 +1,10 @@
+
+body {
+background-image: radial-gradient(circle, #6bebff, #4173b0);
+}
+
+p {
+  color:white;
+  font-size:55px;
+  font-family:'product sans';
+}

@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  text-shadow: 3px 3px #626E13;
+  text-align: center;
+  font-family: 'Marker Felt', monotype;
+  font-size: 3rem;
+  color: #D3FF00;
+}
+
+div {
+  box-sizing: border-box;
+  padding: .5rem;
+  margin: 2px;
+  font-family: 'Product Sans', monotype;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 3px solid;
+}
+
+span {
+  display: inline-block;
+  padding: .1rem;
+  font-size: 5.7rem;
+  -webkit-text-stroke: 5px #4F5A05;
+  font-family: 'Product Sans', monotype;
+  color: #F5FFAD;
+}
+.rainbow-box {
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  max-width: 70%;
+  border-radius: 8px;
+}
+
+.container {
+  position: relative;
+  height: 500px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-color: #29FC79;
+  color: #29FC79;
+}
+
+.static {
+  position: static;
+  height: 100px;
+  max-width: 40%;
+  color: white;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  font-size: 1.5rem;
+  color: #DFFF00;
+  background-color: lightgrey;
+}
+
+.relative {
+  position: relative;
+  height: 300px;
+  font-size: 1.2rem;
+  border-color: #DFFF00;
+  max-width: 50%;
+  color: #DFFF00;
+  border-radius: 24px;
+  background-image: radial-gradient(#626E13, #DFFF00, white);
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 300px;
+  border-color: #9D4453;
+  color: #9D4453;
+}
+
+p {
+  max-width: 70%;
+  border-radius: 8px;
+}

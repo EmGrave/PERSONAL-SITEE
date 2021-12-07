@@ -1,0 +1,147 @@
+body {
+  background-color: white margin: 0;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  height: 50vh;
+  font-family: 'Product Sans', monotype;
+}
+
+.left {
+  background-color: #EEEEEE;
+  flex: 1;
+  padding: 15px;
+  border: 6px solid black;
+}
+
+.center {
+  background-color: #EEEEEE;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  border: 6px solid black;
+}
+
+.col {
+  margin: 0;
+  border: 6px solid black;
+}
+
+.top {
+  background-color: #EEEEEE;
+  flex: 1;
+  border: 6px solid black;
+}
+
+.middle {
+  background-color: #EEEEEE;
+  flex: 1;
+  border: 6px solid black;
+}
+
+.bottom {
+  background-color: #EEEEEE;
+  flex: 1;
+  border: 6px solid black;
+}
+
+.right {
+  flex: 1;
+  background-color: #EEEEEE;
+  padding: 15px;
+  border: 6px solid black;
+}
+
+@media screen and (max-width: 1250px) {
+  * {
+    cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1157.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1157.png), auto !important;
+  }
+
+  .rain1 {
+    content: url("https://cdn.lowgif.com/full/e2ca4923f5570f5f-.gif");
+    width: 300px;
+    height: 300px;
+  }
+
+  .rain2 {
+    content: url("https://i.pinimg.com/originals/3a/d7/fb/3ad7fbc2effd927b54efe9a14096a333.gif");
+    width: 300px;
+    height: 300px;
+  }
+
+  .rain3 {
+    content: url("https://img1.picmix.com/output/stamp/normal/1/5/7/0/590751_02b4a.gif");
+    width: 300px;
+    height: 300px;
+  }
+
+  .rain4 {
+    content: url("https://i.gifer.com/LJfH.gif");
+    width: 300px;
+    height: 300px;
+  }
+
+  .rain5 {
+    content: url("https://i.pinimg.com/originals/64/c9/b1/64c9b116d96f96e1c06b2c22de478f0e.gif");
+    width: 300px;
+    height: 300px;
+  }
+
+  body {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    margin: 0;
+  }
+
+  .container {
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    height: 50vh;
+  }
+
+  .left {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    flex: 1.5;
+    padding: 15px;
+      border: 6px solid white;
+  }
+
+  .center {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    display: flex;
+    flex-flow: column;
+    flex: 1.8;
+      border: 6px solid white;
+  }
+
+  .col {
+    margin: 0;
+  }
+
+  .top {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    flex: 1;
+      border: 6px solid white;
+  }
+
+  .middle {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    flex: 2;
+      border: 6px solid white;
+  }
+
+  .bottom {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    flex: 1.3;
+      border: 6px solid white;
+  }
+
+  .right {
+    flex: 1.9;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    padding: 5px;
+      border: 6px solid white;
+  }
